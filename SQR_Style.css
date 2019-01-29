@@ -1,0 +1,259 @@
+/* CSS stylesheet used by SQR_Layout.html  */
+/*------------------------------------------------*/
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+body{
+  background-color:#B0E0FF;
+  }
+
+/* The navigation bar */
+.navbar{
+  position: fixed;
+  top: 3px;
+  left: 1%;
+  margin: 0;
+  width: 98%;
+  height: auto;
+  z-index: 15;
+  background-color: #B0E0FF;
+  opacity: 1.0;                 /* Try 0.7 if you want it semi-transparent */
+  text-align: center;           /* This centers the links */
+  /*border: 2px solid blue;*/
+}
+
+.navbar:hover{
+  opacity: 1;
+}
+
+/* Links inside the navbar */
+.navbar a{
+  display: inline-block;
+  padding: 10px 20px;       /* 10px top & bottom, 20px at sides */
+  border: 1px solid black;
+  margin: 5px 10px;         /* 5px top and bottom, 10px sides */
+  background-color: #A2FFCC;
+
+}
+
+.splash{
+  position: relative;
+  margin:  60px 1%; /* Margin avoids navbar overlaying on content */
+  background-color: #A2FFCC;
+  height: 768px;
+  width: auto;
+  background-image: url("./Pictures/rest_external_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.splash h1{
+  text-align: center;
+  padding: 303px;
+  border: 1px solid black;
+  margin: 0;
+  color: white;
+  font-size: 60pt;
+  font-family: 'Calibri', sans-serif;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
+}
+
+.comments{
+  margin: 40px;
+}
+
+.comment{
+  margin: 20px;
+}
+
+.comment .name{
+  text-align: center;
+  font-family: "Calibri", sans-serif;
+  font-style: italic;
+  font-size: 14pt;
+}
+
+.other-services{
+  height: auto;           /* Allow it to scale to fit the contents */
+  width: auto;
+  overflow: auto;         /* Float clear*/
+  display: block;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid red;
+  background-color: #FFFF99;
+}
+
+.service{
+  display: inline-block;
+  vertical-align: top;
+  height: auto;    /* 463px is biggest so far */
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #A2FFCC;  /* pale green */
+}
+
+.service h3{
+  background-color: rgb(69, 199, 75);
+  margin: 6px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.service img{
+  height: auto;
+  width: 96%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.service p{
+  background-color: aqua;
+  border: 1px solid black;
+  padding: 6px;
+}
+
+.footer{
+  display: block;
+}
+
+
+h1{
+  font-size: 24pt;
+}
+
+h2{
+  margin: 5px;
+  text-align: center;
+  font-family: "Calibri", sans-serif;
+  font-size: 16pt;
+}
+
+h3{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18pt;
+  text-align: center;
+}
+
+p{
+  margin: 5px;
+  text-align: center;
+  font-family: "Calibri", sans-serif;
+  font-size: 14pt;
+}
+
+
+
