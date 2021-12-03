@@ -9,26 +9,31 @@
   </head>
 
   <body>
-    <div class="navbar">
+    <nav class="navbar container-fluid">
       <!-- Banner at top of page that stays visible-->
-      <a href="#about">About</a>
-      <a href="#comments">Comments</a>
-      <a href="#other services">Other Services</a>
-    </div>
+      <span class="navbar-brand">Welcome to Squirrel's Rest</span>
+      <div class="navbar-nav">
+        <a class="nav-link" href="#top">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#comments">Comments</a>
+        <a class="nav-link" href="#other services">Services</a>
+      </div>
+    </nav>
 
-    <div class="splash">
+    <main>
+    <div class="splash" id="home">
       <!--Will contain a large picture and welcome text-->
-      <h1>Welcome to Squirrel's Rest!</h1>
+      <img src="./Pictures/winter-squirrel.jpg" alt="A snow-covered garder and road"/>
     </div>
 
-    <div class="about" id="about">
+    <section id="about">
       <!-- Brief Introduction -->
       <h2>About</h2>
       <p>Squirrels' Rest  Refuge for Exhausted Squirrels and other 
           Woodland Creatures is a haven for small animals that need to escape the hustle 
           and bustle of their busy lives. It is nestled away in the quiet Cheshire village of
         Norley, just down the road from the pub.</p>
-    </div>
+    </section>
 
     <div class="comments" id="comments">
       <h2>Comments</h2>
@@ -43,6 +48,16 @@
     </div>
 
     <div class="other-services" id="other-services">
+      <div class="card">
+        <img class="card-img-top" src="./Pictures/Hatbear.jpg" alt="Dr H. Paws, a friendly white bear">
+        <div class="card-body">
+          <h5 class="card-title">Helping Paw</h5>
+          <p>Helping Paw Medical Centre is a friendly local GP Surgery 
+            and specialist Gastroenterology clinic. Dr H. Paws is recognised 
+            as a world leader in the emerging field of Thermo-tactile Therapy.
+          </p>
+        </div>
+      </div>
       <a href="./Helping_Paw.html">
         <div class="service" id="Helping-Paw">
           <h3>Helping Paw</h3>
@@ -94,6 +109,7 @@
         </div>
       </a>
     </div>
+  </main>
 
     <div class="footer">
       <p>Some more stuff at the bottom of the page. May not be a paragraph.<p>

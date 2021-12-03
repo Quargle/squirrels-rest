@@ -3,64 +3,8 @@
 
 
 
-body{
-  background-color:#B0E0FF;
-  }
 
-/* The navigation bar */
-.navbar{
-  position: fixed;
-  top: 3px;
-  left: 1%;
-  margin: 0;
-  width: 98%;
-  height: auto;
-  z-index: 15;
-  background-color: #B0E0FF;
-  opacity: 1.0;                 /* Try 0.7 if you want it semi-transparent */
-  text-align: center;           /* This centers the links */
-  /*border: 2px solid blue;*/
-}
 
-.navbar:hover{
-  opacity: 1;
-}
-
-/* Links inside the navbar */
-.navbar a{
-  display: inline-block;
-  padding: 10px 20px;       /* 10px top & bottom, 20px at sides */
-  border: 1px solid black;
-  margin: 5px 10px;         /* 5px top and bottom, 10px sides */
-  background-color: #A2FFCC;
-
-}
-
-.splash{
-  position: relative;
-  margin:  60px 1%; /* Margin avoids navbar overlaying on content */
-  background-color: #A2FFCC;
-  height: 768px;
-  width: auto;
-  background-image: url("./Pictures/rest_external_2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.splash h1{
-  text-align: center;
-  padding: 303px;
-  border: 1px solid black;
-  margin: 0;
-  color: white;
-  font-size: 60pt;
-  font-family: 'Calibri', sans-serif;
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;  
-}
 
 .comments{
   margin: 40px;
@@ -148,5 +92,104 @@ p{
   font-size: 14pt;
 }
 
+/*-------------------------------------*/
 
+
+:root {
+  --flickr-pink: #f72585ff;
+  --byzantine: #b5179eff;
+  --purple: #7209b7ff;
+  --purple-2: #560badff;
+  --trypan-blue: #480ca8ff;
+  --trypan-blue-2: #3a0ca3ff;
+  --persian-blue: #3f37c9ff;
+  --ultramarine-blue: #4361eeff;
+  --dodger-blue: #4895efff;
+  --vivid-sky-blue: #4cc9f0ff;
+
+  --dark-text: #212529;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  background-color: var(--flickr-pink);
+}
+
+.navbar-brand{
+  color: var(--dark-text);
+  font-weight: bold;
+  padding: 5px 20px;
+  font-size: 2rem;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.nav-link{
+    padding: 10px 20px;      
+    margin: 5px 10px;        
+    background-color: var(--flickr-pink);
+    color: var(--skye);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: var(--dark-text);
+  }
+
+.nav-link:hover {
+  color: var(--trypan-blue);
+    background-color: var(--byzantine);
+  }
+
+section {
+  padding-top: 72px;  /* accounts for navbar */
+  background-color: var(--vivid-sky-blue);
+}
+
+  
+.splash{
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+.splash h1{
+  text-align: center;
+  padding: 303px;
+  border: 1px solid black;
+  margin: 0;
+  color: white;
+  font-size: 60pt;
+  font-family: 'Calibri', sans-serif;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
+}
+*/
+
+
+
+
+.card {
+  width: 300px;
+  height: auto;
+}
 
