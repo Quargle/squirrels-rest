@@ -140,7 +140,7 @@ html, body {
 
 }
 
-.nav-link{
+.navbar-nav .nav-link{
     padding: 10px 20px;      
     margin: 5px 10px;        
     background-color: var(--flickr-pink);
